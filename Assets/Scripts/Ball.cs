@@ -50,6 +50,7 @@ public class Ball : MonoBehaviour
       Vector2 dir = new Vector2(-1, y).normalized;
       // sätt velocity = dir * speed
       GetComponent<Rigidbody2D>().velocity = dir * speed;
+      
     }
 
   }
